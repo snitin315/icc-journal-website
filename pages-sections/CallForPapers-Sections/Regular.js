@@ -2,11 +2,11 @@ import React from 'react';
 import { makeStyles } from "@material-ui/core/styles";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js";
 import  Album from '@material-ui/icons/Album';
-import  Label from '@material-ui/icons/Label';
+
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
-import Head from 'next/head'
+import Special from './Special';
 
 const useStyles = makeStyles(styles);
 const flex = {display : "flex", alignItems : "center",textalign : "justify"}
@@ -22,11 +22,9 @@ export default function Regular(){
   const classes = useStyles();  
   return (
     <div className={classes.section}>
-     <Head>
-     <link href="./Regular.css" rel="stylesheet" key="test"/>
-    </Head> 
+     <h2 className={classes.title}>Call For Regular Issues</h2>  
     <NavPills
-      color="success"
+      color="primary"
       tabs={[
         {
           tabButton: "Innovative Communication Networks & Security",
@@ -146,11 +144,12 @@ export default function Regular(){
                 <ListStyle text = "Sensor, Wireless Technologies and APIs"/> 
                                       
               </GridItem>
-            </GridContainer>  
+            </GridContainer> 
           )
         }
       ]}
     />
+    <Special/>
    </div>  
   );
 }

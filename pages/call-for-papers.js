@@ -20,6 +20,7 @@ import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
 
 // Sections for this page
 import Regular from "../pages-sections/CallForPapers-Sections/Regular";
+import Special from "../pages-sections/CallForPapers-Sections/Special";
 
 const dashboardRoutes = [];
 
@@ -58,7 +59,6 @@ export default function LandingPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-         
           <Regular/>
         </div>
       </div>
