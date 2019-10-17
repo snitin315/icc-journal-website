@@ -46,22 +46,13 @@ export default function LandingPage(props) {
     <Parallax filter responsive image={require("assets/img/landing-bg.jpg")}>
         <div className={classes.container}>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={6}>
+            <GridItem xs={12} sm={12} md={8}>
               <h1 className={classes.title}>Innovative Computing and Communication</h1>
-              <h4>
+              <h2>
               An International Journal
-              </h4>
+              </h2>
               <br />
-              <Button
-                color="danger"
-                size="lg"
-                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ref=creativetim"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-play" />
-                Watch video
-              </Button>
+              
             </GridItem>
           </GridContainer>
         </div>
@@ -69,8 +60,6 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
           <ProductSection />
-          <TeamSection />
-          <WorkSection />
         </div>
       </div>
       <Footer />
