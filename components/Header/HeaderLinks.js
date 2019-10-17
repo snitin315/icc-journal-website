@@ -27,7 +27,6 @@ export default function HeaderLinks(props) {
         <Button
           href="/"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           <Home className={classes.icons} /> Home
@@ -37,7 +36,6 @@ export default function HeaderLinks(props) {
         <Button
           href="/call-for-papers"
           color="transparent"
-          target="_blank"
           className={classes.navLink}
         >
           <Book className={classes.icons} /> Call For Papers
