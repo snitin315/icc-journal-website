@@ -4,16 +4,18 @@ import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
+// @material-ui/icons
+
 // core components
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
-
 import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
+import PeerReview from "../../pages-sections/PaperSubmission-Sections/PeerReview";
 
 
 // Sections for this page
-import Regular from "../pages-sections/CallForPapers-Sections/Regular";
+
 
 const dashboardRoutes = [];
 
@@ -34,7 +36,7 @@ export default function LandingPage(props) {
       />
       <div style={{marginTop: "30px"}} className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <Regular/>
+         <PeerReview/>
         </div>
       </div>
       <Footer />
