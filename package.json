@@ -8,8 +8,6 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && rm -rf .next/ && npm install && npm run dev"
   },
   "repository": {
@@ -21,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/snitin315/icc-journal-website/issues"
   },
-  "homepage": "https://github.com/snitin315/icc-journal-website",
+  "homepage": "https://icc-journal.com",
   "dependencies": {
     "@material-ui/core": "4.3.2",
     "@material-ui/icons": "4.2.1",
@@ -44,8 +42,5 @@
     "react-swipeable-views": "0.13.3",
     "styled-components": "4.3.2",
     "webpack": "4.39.3"
-  },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
   }
 }
