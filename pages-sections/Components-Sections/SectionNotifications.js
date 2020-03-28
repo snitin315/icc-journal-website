@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 // @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from '@material-ui/core/styles';
 // @material-ui/icons
-import Check from "@material-ui/icons/Check";
-import Warning from "@material-ui/icons/Warning";
+import Check from '@material-ui/icons/Check';
+import Warning from '@material-ui/icons/Warning';
 // core components
-import SnackbarContent from "components/Snackbar/SnackbarContent.js";
-import Clearfix from "components/Clearfix/Clearfix.js";
+import SnackbarContent from 'components/Snackbar/SnackbarContent.js';
+import Clearfix from 'components/Clearfix/Clearfix.js';
 
-import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/notificationsStyles.js";
+import styles from 'assets/jss/nextjs-material-kit/pages/componentsSections/notificationsStyles.js';
 
 const useStyles = makeStyles(styles);
 
@@ -24,8 +24,8 @@ export default function SectionNotifications() {
       <SnackbarContent
         message={
           <span>
-            <b>INFO ALERT:</b> You{"'"}ve got some friends nearby, stop looking
-            at your phone and find them...
+            <b>INFO ALERT:</b> You{"'"}ve got some friends nearby, stop looking at your phone and
+            find them...
           </span>
         }
         close
@@ -35,8 +35,8 @@ export default function SectionNotifications() {
       <SnackbarContent
         message={
           <span>
-            <b>SUCCESS ALERT:</b> You{"'"}ve got some friends nearby, stop
-            looking at your phone and find them...
+            <b>SUCCESS ALERT:</b> You{"'"}ve got some friends nearby, stop looking at your phone and
+            find them...
           </span>
         }
         close
@@ -46,8 +46,8 @@ export default function SectionNotifications() {
       <SnackbarContent
         message={
           <span>
-            <b>WARNING ALERT:</b> You{"'"}ve got some friends nearby, stop
-            looking at your phone and find them...
+            <b>WARNING ALERT:</b> You{"'"}ve got some friends nearby, stop looking at your phone and
+            find them...
           </span>
         }
         close
@@ -57,8 +57,8 @@ export default function SectionNotifications() {
       <SnackbarContent
         message={
           <span>
-            <b>DANGER ALERT:</b> You{"'"}ve got some friends nearby, stop
-            looking at your phone and find them...
+            <b>DANGER ALERT:</b> You{"'"}ve got some friends nearby, stop looking at your phone and
+            find them...
           </span>
         }
         close

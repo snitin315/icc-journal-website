@@ -1,4 +1,4 @@
-.body-page-transition{
+.body-page-transition {
   overflow: hidden;
   #page-transition {
     position: fixed;
@@ -10,10 +10,10 @@
     align-items: center;
   }
 
-  #page-transition > div{
-    &:after{
-      content: "";
-      background-image: url("../img/bg7.jpg");
+  #page-transition > div {
+    &:after {
+      content: '';
+      background-image: url('../img/bg7.jpg');
       background-size: cover;
       position: fixed;
       z-index: 9998;

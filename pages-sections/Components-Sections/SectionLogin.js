@@ -1,22 +1,22 @@
-import React from "react";
+import React from 'react';
 // @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import Icon from "@material-ui/core/Icon";
+import { makeStyles } from '@material-ui/core/styles';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import Icon from '@material-ui/core/Icon';
 // @material-ui/icons
-import People from "@material-ui/icons/People";
-import Email from "@material-ui/icons/Email";
+import People from '@material-ui/icons/People';
+import Email from '@material-ui/icons/Email';
 // core components
-import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
-import Card from "components/Card/Card.js";
-import CardHeader from "components/Card/CardHeader.js";
-import CardBody from "components/Card/CardBody.js";
-import CardFooter from "components/Card/CardFooter.js";
-import Button from "components/CustomButtons/Button.js";
-import CustomInput from "components/CustomInput/CustomInput.js";
+import GridContainer from 'components/Grid/GridContainer.js';
+import GridItem from 'components/Grid/GridItem.js';
+import Card from 'components/Card/Card.js';
+import CardHeader from 'components/Card/CardHeader.js';
+import CardBody from 'components/Card/CardBody.js';
+import CardFooter from 'components/Card/CardFooter.js';
+import Button from 'components/CustomButtons/Button.js';
+import CustomInput from 'components/CustomInput/CustomInput.js';
 
-import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/loginStyle.js";
+import styles from 'assets/jss/nextjs-material-kit/pages/componentsSections/loginStyle.js';
 
 const useStyles = makeStyles(styles);
 
@@ -37,31 +37,27 @@ export default function SectionLogin() {
                       href="#pablo"
                       target="_blank"
                       color="transparent"
-                      onClick={e => e.preventDefault()}
+                      onClick={(e) => e.preventDefault()}
                     >
-                      <i className={classes.socialIcons + " fab fa-twitter"} />
+                      <i className={classes.socialIcons + ' fab fa-twitter'} />
                     </Button>
                     <Button
                       justIcon
                       href="#pablo"
                       target="_blank"
                       color="transparent"
-                      onClick={e => e.preventDefault()}
+                      onClick={(e) => e.preventDefault()}
                     >
-                      <i className={classes.socialIcons + " fab fa-facebook"} />
+                      <i className={classes.socialIcons + ' fab fa-facebook'} />
                     </Button>
                     <Button
                       justIcon
                       href="#pablo"
                       target="_blank"
                       color="transparent"
-                      onClick={e => e.preventDefault()}
+                      onClick={(e) => e.preventDefault()}
                     >
-                      <i
-                        className={
-                          classes.socialIcons + " fab fa-google-plus-g"
-                        }
-                      />
+                      <i className={classes.socialIcons + ' fab fa-google-plus-g'} />
                     </Button>
                   </div>
                 </CardHeader>
@@ -71,48 +67,46 @@ export default function SectionLogin() {
                     labelText="First Name..."
                     id="first"
                     formControlProps={{
-                      fullWidth: true
+                      fullWidth: true,
                     }}
                     inputProps={{
-                      type: "text",
+                      type: 'text',
                       endAdornment: (
                         <InputAdornment position="end">
                           <People className={classes.inputIconsColor} />
                         </InputAdornment>
-                      )
+                      ),
                     }}
                   />
                   <CustomInput
                     labelText="Email..."
                     id="email"
                     formControlProps={{
-                      fullWidth: true
+                      fullWidth: true,
                     }}
                     inputProps={{
-                      type: "email",
+                      type: 'email',
                       endAdornment: (
                         <InputAdornment position="end">
                           <Email className={classes.inputIconsColor} />
                         </InputAdornment>
-                      )
+                      ),
                     }}
                   />
                   <CustomInput
                     labelText="Password"
                     id="pass"
                     formControlProps={{
-                      fullWidth: true
+                      fullWidth: true,
                     }}
                     inputProps={{
-                      type: "password",
+                      type: 'password',
                       endAdornment: (
                         <InputAdornment position="end">
-                          <Icon className={classes.inputIconsColor}>
-                            lock_outline
-                          </Icon>
+                          <Icon className={classes.inputIconsColor}>lock_outline</Icon>
                         </InputAdornment>
                       ),
-                      autoComplete: "off"
+                      autoComplete: 'off',
                     }}
                   />
                 </CardBody>

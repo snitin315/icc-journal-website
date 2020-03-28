@@ -1,21 +1,19 @@
-import React from "react";
+import React from 'react';
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from 'classnames';
 // @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from '@material-ui/core/styles';
 
 // @material-ui/icons
 
 // core components
-import Header from "components/Header/Header.js";
-import Footer from "components/Footer/Footer.js";
-import HeaderLinks from "components/Header/HeaderLinks.js";
-import styles from "assets/jss/nextjs-material-kit/pages/landingPage.js";
-import Plagiarism from "../../pages-sections/PaperSubmission-Sections/Plagiarism";
-
+import Header from 'components/Header/Header.js';
+import Footer from 'components/Footer/Footer.js';
+import HeaderLinks from 'components/Header/HeaderLinks.js';
+import styles from 'assets/jss/nextjs-material-kit/pages/landingPage.js';
+import Plagiarism from '../../pages-sections/PaperSubmission-Sections/Plagiarism';
 
 // Sections for this page
-
 
 const dashboardRoutes = [];
 
@@ -34,9 +32,9 @@ export default function LandingPage(props) {
         fixed
         {...rest}
       />
-      <div style={{marginTop: "30px"}} className={classNames(classes.main)}>
+      <div style={{ marginTop: '30px' }} className={classNames(classes.main)}>
         <div className={classes.container}>
-         <Plagiarism/>
+          <Plagiarism />
         </div>
       </div>
       <Footer />
