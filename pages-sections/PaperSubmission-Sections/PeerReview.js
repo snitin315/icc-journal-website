@@ -6,7 +6,6 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
-import { cardTitle } from "assets/jss/nextjs-material-kit.js";
 import  Album from '@material-ui/icons/Album';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
