@@ -34,7 +34,7 @@ export default function LandingPage(props) {
         fixed
         {...rest}
       />
-      <div style={{marginTop: "30px"}} className={classNames(classes.main, classes.mainRaised)}>
+      <div style={{marginTop: "30px"}} className={classNames(classes.main)}>
         <div className={classes.container}>
          <Instruction/>
         </div>

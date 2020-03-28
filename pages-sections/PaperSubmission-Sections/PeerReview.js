@@ -14,16 +14,6 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/teamStyle.js";
 
-const CardStyles = {
-    cardTitle,
-    textCenter: {
-      textAlign: "center"
-    },
-    textMuted: {
-      color: "#6c757d"
-    },
-  };
-
 const useStyles = makeStyles(styles);
 
 export default function Instruction() {
