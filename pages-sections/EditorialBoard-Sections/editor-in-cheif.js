@@ -6,11 +6,6 @@ import { makeStyles } from '@material-ui/core/styles';
 // core components
 import GridContainer from 'components/Grid/GridContainer.js';
 import GridItem from 'components/Grid/GridItem.js';
-import Album from '@material-ui/icons/Album';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
 import editor from '../../assets/img/editorcheif.png';
 import styles from 'assets/jss/nextjs-material-kit/pages/landingPageSections/teamStyle.js';
 

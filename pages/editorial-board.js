@@ -14,6 +14,7 @@ import styles from 'assets/jss/nextjs-material-kit/pages/landingPage.js';
 // Sections for this page
 import EditorInCheif from '../pages-sections/EditorialBoard-Sections/editor-in-cheif';
 import AdvisoryBoard from '../pages-sections/EditorialBoard-Sections/AdvisoryBoard';
+import EditorialBoardMembers from '../pages-sections/EditorialBoard-Sections/EditorialBoard';
 
 const dashboardRoutes = [];
 
@@ -23,7 +24,7 @@ export default function EditorialBoard(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
-    <div>
+    <div className={classes.section}>
       <Header
         color="dark"
         routes={dashboardRoutes}
@@ -36,6 +37,7 @@ export default function EditorialBoard(props) {
         <div className={classes.container}>
           <EditorInCheif />
           <AdvisoryBoard />
+          <EditorialBoardMembers />
         </div>
       </div>
       <Footer />

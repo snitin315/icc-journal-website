@@ -7,7 +7,6 @@ import GridItem from 'components/Grid/GridItem.js';
 import Card from 'components/Card/Card.js';
 import CardBody from 'components/Card/CardBody.js';
 import styles from 'assets/jss/nextjs-material-kit/pages/landingPageSections/productStyle.js';
-import { cardTitle, cardLink, cardSubtitle } from 'assets/jss/nextjs-material-kit.js';
 
 const useStyles = makeStyles(styles);
 
