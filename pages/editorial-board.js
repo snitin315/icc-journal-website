@@ -13,6 +13,7 @@ import styles from 'assets/jss/nextjs-material-kit/pages/landingPage.js';
 
 // Sections for this page
 import EditorInCheif from '../pages-sections/EditorialBoard-Sections/editor-in-cheif';
+import AdvisoryBoard from '../pages-sections/EditorialBoard-Sections/AdvisoryBoard';
 
 const dashboardRoutes = [];
 
@@ -31,9 +32,10 @@ export default function EditorialBoard(props) {
         fixed
         {...rest}
       />
-      <div style={{ marginTop: '170px' }} className={classNames(classes.main)}>
+      <div style={{ marginTop: '30px' }} className={classNames(classes.main)}>
         <div className={classes.container}>
           <EditorInCheif />
+          <AdvisoryBoard />
         </div>
       </div>
       <Footer />

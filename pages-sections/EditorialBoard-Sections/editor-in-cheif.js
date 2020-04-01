@@ -1,70 +1,58 @@
 import React from 'react';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
-import PlayArrowIcon from '@material-ui/icons/PlayArrow';
-import SkipNextIcon from '@material-ui/icons/SkipNext';
+// nodejs library that concatenates classes
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-  },
-  details: {
-    display: 'flex',
-    flexDirection: 'column',
-  },
-  content: {
-    flex: '1 0 auto',
-  },
-  cover: {
-    width: 151,
-  },
-  controls: {
-    display: 'flex',
-    alignItems: 'center',
-    paddingLeft: theme.spacing(1),
-    paddingBottom: theme.spacing(1),
-  },
-  playIcon: {
-    height: 38,
-    width: 38,
-  },
-}));
+import { makeStyles } from '@material-ui/core/styles';
 
-export default function MediaControlCard() {
+// core components
+import GridContainer from 'components/Grid/GridContainer.js';
+import GridItem from 'components/Grid/GridItem.js';
+import Album from '@material-ui/icons/Album';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import editor from '../../assets/img/editorcheif.png';
+import styles from 'assets/jss/nextjs-material-kit/pages/landingPageSections/teamStyle.js';
+
+const useStyles = makeStyles(styles);
+
+export default function EditorInCheif() {
   const classes = useStyles();
-  const theme = useTheme();
+  const justify = {
+    textAlign: 'justify',
+  };
 
   return (
-    <Card className={classes.root}>
-       <CardMedia
-        className={classes.cover}
-        image={require('assets/img/landing-bg.jpg')}
-        title="Live from space album cover"
-      />
-      <div className={classes.details}>
-        <CardContent className={classes.content}>
-          <Typography component="h5" variant="h5">
-            Joel J. P. C. Rodrigues 
-          </Typography>
-          <Typography variant="subtitle1" color="textSecondary">
-            Professor
-          </Typography>
-          <Typography variant="subtitle3" color="textSecondary">
-          National Institute of Telecommunications (Inatel), Santa Rita do Sapucaı́, MG, Brazil
-          </Typography>
-          <Typography variant="subtitle1" color="textSecondary">
-          Instituto de Telecomunicações, Lisbon, Portugal
-          </Typography>
-          <Typography variant="subtitle1" color="textSecondary">
-          Federal University of Piauí (UFPI), Teresina, PI, Brazil
-          </Typography>
-        </CardContent>
-      </div>
-    </Card>
+    <div className={classes.section}>
+      <h2 className={classes.title}> Editor-in-Chief</h2>
+      <GridContainer justify="center">
+        <GridItem xs={12} sm={12} md={4}>
+          <img src={editor} style={{ maxWidth: '300px', height: '300px' }} />
+        </GridItem>
+        <GridItem xs={12} sm={12} md={8} style={{ textAlign: 'left', marginTop: '-30px' }}>
+          <h2 className={classes.title}> Joel J. P. C. Rodrigues </h2>
+          <h3 className={classes.description}>Professor</h3>
+          <h4 className={classes.description}>
+            {' '}
+            <b>
+              {' '}
+              National Institute of Telecommunications (Inatel), Santa Rita do Sapucaı́, MG, Brazil{' '}
+            </b>{' '}
+          </h4>
+          <h4 className={classes.description}>
+            {' '}
+            <b> Instituto de Telecomunicações, Lisbon, Portugal </b>{' '}
+          </h4>
+          <h4 className={classes.description}>
+            {' '}
+            <b> Federal University of Piauí (UFPI), Teresina, PI, Brazil </b>{' '}
+          </h4>
+          <h4 className={classes.description}>
+            {' '}
+            <a> Email: joeljr@inatel.br, joeljr@ieee.org. </a>{' '}
+          </h4>
+        </GridItem>
+      </GridContainer>
+    </div>
   );
 }
