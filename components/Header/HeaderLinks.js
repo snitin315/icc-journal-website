@@ -8,7 +8,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
 // @material-ui/icons
-import { Apps, Home, Book, GroupAdd, Money } from '@material-ui/icons';
+import { Apps, Home, Book, GroupAdd } from '@material-ui/icons';
 
 // core components
 import CustomDropdown from 'components/CustomDropdown/CustomDropdown.js';
