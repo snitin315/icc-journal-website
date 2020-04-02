@@ -37,7 +37,7 @@ export default function Instruction() {
           <h2 className={classes.title}> Instructions To Authors</h2>
           <h5 className={classes.description} style={justify}>
             Papers for the regular issues of the journal can be submitted, round the year,
-            electronically at <a> editor@icc-journal.com</a> . After the final acceptance of the
+            electronically at <a> ijicc.editor@gmail.com</a> . After the final acceptance of the
             paper, based upon the detailed review process, the paper will immediately be published
             online. However, assignment of the paper to an specific Volume / Issue of the Journal
             will be taken up by the Editorial Board later; and the author will be intimated

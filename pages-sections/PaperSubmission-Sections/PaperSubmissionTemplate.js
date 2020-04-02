@@ -49,10 +49,10 @@ export default function Instruction() {
                 Prospective authors are invited to submit full text papers including abstract,
                 keywords, introduction, methodology, result description, tables, figures and
                 references. Full text papers (.doc, .pdf) may send by e-mail at{' '}
-                <a> editor@icc-journal.com </a>
+                <a> ijicc.editor@gmail.com </a>
               </h5>
               <h6>Paper Template of it is available. CLick the button below.</h6>
-              <Button color="primary">
+              <Button color="primary" target="_blank" href="https://drive.google.com/file/d/1R8ZlvIia2s5EpOK44Sh73xZRi4B0c7Av/view?usp=sharing">
                 {' '}
                 <strong> Get Paper Template</strong>
               </Button>

@@ -64,7 +64,7 @@ export default function Special() {
           <CardFooter className={classes.textMuted}>
             <h6 className={classes.description}>
               If you would like to propose a Special Issue and be the Lead Guest Editor, please
-              prepare a Proposal and send to <a> editor@icc-journal.com </a>
+              prepare a Proposal and send to <a> ijicc.editor@gmail.com </a>
             </h6>
           </CardFooter>
         </Card>
