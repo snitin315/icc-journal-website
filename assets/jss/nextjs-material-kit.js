@@ -78,8 +78,7 @@ const roseColor = '#e91e63';
 const grayColor = '#999999';
 
 const primaryBoxShadow = {
-  boxShadow:
-    '#171617',
+  boxShadow: '#171617',
 };
 const infoBoxShadow = {
   boxShadow:
