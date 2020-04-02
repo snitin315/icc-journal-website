@@ -8,7 +8,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 
 // @material-ui/icons
-import { Apps, School, Home, Book, GroupAdd, Money } from '@material-ui/icons';
+import { Apps, Home, Book, GroupAdd, Money } from '@material-ui/icons';
 
 // core components
 import CustomDropdown from 'components/CustomDropdown/CustomDropdown.js';
@@ -64,19 +64,13 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button href="/editorial-board" color="transparent" className={classes.navLink}>
-          <Book className={classes.icons} /> Editorial Board
+          <GroupAdd className={classes.icons} /> Editorial Board
         </Button>
       </ListItem>
 
       <ListItem className={classes.listItem}>
         <Button href="/archieve" color="transparent" className={classes.navLink}>
           <Book className={classes.icons} /> Archieve
-        </Button>
-      </ListItem>
-
-      <ListItem className={classes.listItem}>
-        <Button href="/indexing" color="transparent" className={classes.navLink}>
-          <Book className={classes.icons} /> Indexing
         </Button>
       </ListItem>
     </List>
