@@ -52,7 +52,11 @@ export default function Instruction() {
                 <a> ijicc.editor@gmail.com </a>
               </h5>
               <h6>Paper Template of it is available. CLick the button below.</h6>
-              <Button color="primary" target="_blank" href="https://drive.google.com/file/d/1R8ZlvIia2s5EpOK44Sh73xZRi4B0c7Av/view?usp=sharing">
+              <Button
+                color="primary"
+                target="_blank"
+                href="https://drive.google.com/file/d/1R8ZlvIia2s5EpOK44Sh73xZRi4B0c7Av/view?usp=sharing"
+              >
                 {' '}
                 <strong> Get Paper Template</strong>
               </Button>
