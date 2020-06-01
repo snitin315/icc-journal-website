@@ -609,6 +609,130 @@ export default function AdvisoryBoard() {
           </GridContainer>
         </ExpansionPanelDetails>
       </ExpansionPanel>
+      <br/>
+      <ExpansionPanel style={{ borderRadius: '10px' }}>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>
+            {' '}
+            <h3>
+              {' '}
+              <b>Vol. 1, Issue 4, January/April 2020 </b>{' '}
+            </h3>
+          </Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <GridContainer justify="center" style={{ textAlign: 'justify' }}>
+            <GridItem xs={12} sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  <h4>
+                    <b>
+                      Title :{' '}
+                      <a
+                        href="https://drive.google.com/file/d/1J4v7LEmwkHCRID_haXJLyfcwcfjYbyw6/view?usp=sharing"
+                        target="_blank"
+                        style={{ color: '#1565d4' }}
+                      >
+                        {' '}
+                        Depression Detection amongst Social Media Users using Machine Learning
+                      </a>{' '}
+                    </b>
+                  </h4>
+                  <h5>
+                    <b>Author(s): </b> Prashant Verma, Kapil Sharma, Gurjit Singh Walia
+                  </h5>
+                  <h5>
+                    <b>Pages: 1-6</b>
+                  </h5>
+                </CardBody>
+              </Card>
+            </GridItem>
+
+            <GridItem xs={12} sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  <h4>
+                    <b>
+                      Title :{' '}
+                      <a
+                        href="https://drive.google.com/file/d/1L9baaZzLdjlD5HmvD9HnXuwF9uqSe-ir/view?usp=sharing"
+                        target="_blank"
+                        style={{ color: '#1565d4' }}
+                      >
+                        {' '}
+                        COVID-19 outbreak analysis and predictions for future cases
+                      </a>{' '}
+                    </b>
+                  </h4>
+                  <h5>
+                    <b>Author(s): </b> Karan Gupta, Luv Dhamija, Ritin Behl  
+                  </h5>
+                  <h5>
+                    <b>Pages: 7-11</b>
+                  </h5>
+                </CardBody>
+              </Card>
+            </GridItem>
+
+            <GridItem xs={12} sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  <h4>
+                    <b>
+                      Title :{' '}
+                      <a
+                        href="https://drive.google.com/file/d/1h1uwbzSEg9C5B1yqfCuoYsfRoV-qbmVa/view?usp=sharing"
+                        target="_blank"
+                        style={{ color: '#1565d4' }}
+                      >
+                        {' '}
+                        FLY BULLETIN: AN INTELLIGENT NEWS APP 
+                      </a>{' '}
+                    </b>
+                  </h4>
+                  <h5>
+                    <b>Author(s): </b> Srishty Chaudhary, Tanya Mehra, Prabhat Singh, Harsh Khatter
+                  </h5>
+                  <h5>
+                    <b>Pages: 12-20</b>
+                  </h5>
+                </CardBody>
+              </Card>
+            </GridItem>
+
+            <GridItem xs={12} sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  <h4>
+                    <b>
+                      Title :{' '}
+                      <a
+                        href="https://drive.google.com/file/d/1WdGgqsmFCL_Ur07b6Yojtw36ehFarfix/view?usp=sharing"
+                        target="_blank"
+                        style={{ color: '#1565d4' }}
+                      >
+                        {' '}
+                        Autonomous Car Using Tensorflow
+                      </a>{' '}
+                    </b>
+                  </h4>
+                  <h5>
+                    <b>Author(s): </b> Navender Vats, Md Abid Iqbal, Suraj Aggarwal 
+                  </h5>
+                  <h5>
+                    <b>Pages: 21-23</b>
+                  </h5>
+                </CardBody>
+              </Card>
+            </GridItem>
+
+          </GridContainer>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
     </div>
   );
 }
