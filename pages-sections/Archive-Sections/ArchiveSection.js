@@ -508,7 +508,7 @@ export default function AdvisoryBoard() {
                     <b>
                       Title :{' '}
                       <a
-                        href="https://drive.google.com/file/d/122x7-CmN9JdUqZ3N91sIdS6K-BLMzVhY/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1mIiOWYEkv_6hLaNA0-YMVqqWZhb2bOk4/view?usp=sharing"
                         target="_blank"
                         style={{ color: '#1565d4' }}
                       >
@@ -518,7 +518,7 @@ export default function AdvisoryBoard() {
                     </b>
                   </h4>
                   <h5>
-                    <b>Author(s): </b> Aditya Kumar, Rani Rupali Rajput and Ashi Srivastava
+                    <b>Author(s): </b> Aditya Kumar, Rani Rupali Rajput, Ashi Srivastava, Prabhat Singh, and Harsh Khatter
                   </h5>
                   <h5>
                     <b>Pages: 7-12</b>
@@ -620,38 +620,12 @@ export default function AdvisoryBoard() {
             {' '}
             <h3>
               {' '}
-              <b>Vol. 1, Issue 4, January/April 2020 </b>{' '}
+              <b>Vol. 1, Issue 4, April 2020 </b>{' '}
             </h3>
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <GridContainer justify="center" style={{ textAlign: 'justify' }}>
-            <GridItem xs={12} sm={12} md={12}>
-              <Card>
-                <CardBody>
-                  <h4>
-                    <b>
-                      Title :{' '}
-                      <a
-                        href="https://drive.google.com/file/d/1J4v7LEmwkHCRID_haXJLyfcwcfjYbyw6/view?usp=sharing"
-                        target="_blank"
-                        style={{ color: '#1565d4' }}
-                      >
-                        {' '}
-                        Depression Detection amongst Social Media Users using Machine Learning
-                      </a>{' '}
-                    </b>
-                  </h4>
-                  <h5>
-                    <b>Author(s): </b> Prashant Verma, Kapil Sharma, Gurjit Singh Walia
-                  </h5>
-                  <h5>
-                    <b>Pages: 1-6</b>
-                  </h5>
-                </CardBody>
-              </Card>
-            </GridItem>
-
             <GridItem xs={12} sm={12} md={12}>
               <Card>
                 <CardBody>
@@ -672,7 +646,7 @@ export default function AdvisoryBoard() {
                     <b>Author(s): </b> Karan Gupta, Luv Dhamija, Ritin Behl  
                   </h5>
                   <h5>
-                    <b>Pages: 7-11</b>
+                    <b>Pages: 1-5</b>
                   </h5>
                 </CardBody>
               </Card>
@@ -698,7 +672,7 @@ export default function AdvisoryBoard() {
                     <b>Author(s): </b> Srishty Chaudhary, Tanya Mehra, Prabhat Singh, Harsh Khatter
                   </h5>
                   <h5>
-                    <b>Pages: 12-20</b>
+                    <b>Pages: 7-15</b>
                   </h5>
                 </CardBody>
               </Card>
@@ -724,7 +698,33 @@ export default function AdvisoryBoard() {
                     <b>Author(s): </b> Navender Vats, Md Abid Iqbal, Suraj Aggarwal 
                   </h5>
                   <h5>
-                    <b>Pages: 21-23</b>
+                    <b>Pages: 17-19</b>
+                  </h5>
+                </CardBody>
+              </Card>
+            </GridItem>
+
+            <GridItem xs={12} sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  <h4>
+                    <b>
+                      Title :{' '}
+                      <a
+                        href="https://drive.google.com/file/d/1WdGgqsmFCL_Ur07b6Yojtw36ehFarfix/view?usp=sharing"
+                        target="_blank"
+                        style={{ color: '#1565d4' }}
+                      >
+                        {' '}
+                        Voice Prescription using Name Entity Recognition
+                      </a>{' '}
+                    </b>
+                  </h4>
+                  <h5>
+                    <b>Author(s): </b> Nobel Dang, Saksham Thukral, Ashish Khanna
+                  </h5>
+                  <h5>
+                    <b>Pages: 21-25</b>
                   </h5>
                 </CardBody>
               </Card>
