@@ -711,7 +711,7 @@ export default function AdvisoryBoard() {
                     <b>
                       Title :{' '}
                       <a
-                        href="https://drive.google.com/file/d/1WdGgqsmFCL_Ur07b6Yojtw36ehFarfix/view?usp=sharing"
+                        href="https://drive.google.com/file/d/163yPYbzGHUe9-WQkyUC1YsxG04t8u5R7/view?usp=sharing"
                         target="_blank"
                         style={{ color: '#1565d4' }}
                       >
