@@ -32,7 +32,7 @@ export default function EditorialBoard() {
             </CardBody>
           </Card>
         </GridItem>
-        <GridItem xs={12} sm={6} md={6}>
+        {/* <GridItem xs={12} sm={6} md={6}>
           <Card>
             <CardBody>
               <h5>
@@ -96,7 +96,7 @@ export default function EditorialBoard() {
               <b className={classes.description}> Email: nguyengianhu@duytan.edu.vn </b>
             </CardBody>
           </Card>
-        </GridItem>
+        </GridItem> */}
         <GridItem xs={12} sm={6} md={6}>
           <Card>
             <CardBody>
@@ -136,8 +136,37 @@ export default function EditorialBoard() {
             </CardBody>
           </Card>
         </GridItem>
+        <GridItem xs={12} sm={6} md={6}>
+          <Card>
+            <CardBody>
+              <h5>
+                <b>
+                  <a>Dr. Deepak Gupta </a>{' '}
+                </b>
+              </h5>
+              <h6> Maharaja Agrasen Institute of Technology, Delhi, India. </h6>
+              <b className={classes.description}>
+                {' '}
+                deepakgupta@mait.ac.in, drdeepakgupta.cse@gmail.com{' '}
+              </b>
+            </CardBody>
+          </Card>
+        </GridItem>
+        <GridItem xs={12} sm={6} md={6}>
+          <Card>
+            <CardBody>
+              <h5>
+                <b>
+                  <a>Dr. Aditya Khamparia </a>{' '}
+                </b>
+              </h5>
+              <h6>Lovely Professional University, Punjab, India </h6>
+              <b className={classes.description}> Email: aditya.khamparia88@gmail.com </b>
+            </CardBody>
+          </Card>
+        </GridItem>
       </GridContainer>
-      <h2 className={classes.title} style={{ textAlign: 'center' }}>
+      {/* <h2 className={classes.title} style={{ textAlign: 'center' }}>
         {' '}
         Managing Editors
       </h2>
@@ -171,7 +200,7 @@ export default function EditorialBoard() {
             </CardBody>
           </Card>
         </GridItem>
-      </GridContainer>
+      </GridContainer> */}
     </div>
   );
 }

@@ -30,18 +30,11 @@ export default function EditorInCheif() {
           <h3 className={classes.description}>Professor</h3>
           <h4 className={classes.description}>
             {' '}
-            <b>
-              {' '}
-              National Institute of Telecommunications (Inatel), Santa Rita do Sapucaı́, MG, Brazil{' '}
-            </b>{' '}
+            <b> Federal University of Piauí (UFPI), Teresina, PI, Brazil </b>{' '}
           </h4>
           <h4 className={classes.description}>
             {' '}
             <b> Instituto de Telecomunicações, Lisbon, Portugal </b>{' '}
-          </h4>
-          <h4 className={classes.description}>
-            {' '}
-            <b> Federal University of Piauí (UFPI), Teresina, PI, Brazil </b>{' '}
           </h4>
           <h4 className={classes.description}>
             {' '}

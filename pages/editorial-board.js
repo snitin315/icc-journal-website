@@ -36,7 +36,7 @@ export default function EditorialBoard(props) {
       <div style={{ marginTop: '30px' }} className={classNames(classes.main)}>
         <div className={classes.container}>
           <EditorInCheif />
-          <AdvisoryBoard />
+          {/* <AdvisoryBoard /> */}
           <EditorialBoardMembers />
         </div>
       </div>
