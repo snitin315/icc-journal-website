@@ -76,6 +76,7 @@ export default class MyApp extends App {
       <React.Fragment>
         <Head>
           <title>ICC-Journal</title>
+          <meta name="google-site-verification" content="UjmQO0ZpKQve7OaCBkr4YBOnb3SOs_572kFjN2qXFrg" />
         </Head>
         <Component {...pageProps} />
       </React.Fragment>
