@@ -729,6 +729,154 @@ export default function AdvisoryBoard() {
                 </CardBody>
               </Card>
             </GridItem>
+          </GridContainer>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <br/>
+      <ExpansionPanel style={{ borderRadius: '10px' }}>
+        <ExpansionPanelSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography className={classes.heading}>
+            {' '}
+            <h3>
+              {' '}
+              <b>Vol. 2, Issue 1, August 2020 </b>{' '}
+            </h3>
+          </Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <GridContainer justify="center" style={{ textAlign: 'justify' }}>
+            <GridItem xs={12} sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  <h4>
+                    <b>
+                      Title :{' '}
+                      <a
+                        href="https://drive.google.com/file/d/1wX6L-wUGIvyO03gcZIethYOSXgiLzftP/view?usp=sharing"
+                        target="_blank"
+                        style={{ color: '#1565d4' }}
+                      >
+                        {' '}
+                        Design of smart Home monitoring healthcare system using Internet of things
+                      </a>{' '}
+                    </b>
+                  </h4>
+                  <h5>
+                    <b>Author(s): </b> P. Nishanthi, E. Udayakumar, M. Vaishnavi, K. Srihari 
+                  </h5>
+                  <h5>
+                    <b>Pages: 1-6</b>
+                  </h5>
+                </CardBody>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  <h4>
+                    <b>
+                      Title :{' '}
+                      <a
+                        href="https://drive.google.com/file/d/1MH9T_LmGQKZOsU4AGsG8LvDaUiDIJ3nd/view?usp=sharing"
+                        target="_blank"
+                        style={{ color: '#1565d4' }}
+                      >
+                        {' '}
+                        Computer Aided Diagnosis Model for Lung Cancer Prediction using Gabor Filtering with Artificial Neural Networks
+                      </a>{' '}
+                    </b>
+                  </h4>
+                  <h5>
+                    <b>Author(s): </b>  K. Shankar
+                  </h5>
+                  <h5>
+                    <b>Pages: 7-10</b>
+                  </h5>
+                </CardBody>
+              </Card>
+            </GridItem>
+
+            <GridItem xs={12} sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  <h4>
+                    <b>
+                      Title :{' '}
+                      <a
+                        href="https://drive.google.com/file/d/1m5BC0ZmHrcZuPm1u79fmKSxYJ1hAFs6t/view?usp=sharing"
+                        target="_blank"
+                        style={{ color: '#1565d4' }}
+                      >
+                        {' '}
+                        One QR code for Ticketing System
+                      </a>{' '}
+                    </b>
+                  </h4>
+                  <h5>
+                    <b>Author(s): </b>  Ashima Arya, Sapna Juneja, Abhinav Juneja
+                  </h5>
+                  <h5>
+                    <b>Pages: 11-16</b>
+                  </h5>
+                </CardBody>
+              </Card>
+            </GridItem>
+
+            <GridItem xs={12} sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  <h4>
+                    <b>
+                      Title :{' '}
+                      <a
+                        href="https://drive.google.com/file/d/1NoLy3Gf9P1F88etV49oSH3utqDNycq6M/view?usp=sharing"
+                        target="_blank"
+                        style={{ color: '#1565d4' }}
+                      >
+                        {' '}
+                        Motion Transfer in Videos using DCGAN
+                      </a>{' '}
+                    </b>
+                  </h4>
+                  <h5>
+                    <b>Author(s): </b> Moolchand Sharma, Prerna Sharma, Manish Kumar Jha, Rohan Singh
+                  </h5>
+                  <h5>
+                    <b>Pages: 17-24</b>
+                  </h5>
+                </CardBody>
+              </Card>
+            </GridItem>
+
+            <GridItem xs={12} sm={12} md={12}>
+              <Card>
+                <CardBody>
+                  <h4>
+                    <b>
+                      Title :{' '}
+                      <a
+                        href="https://drive.google.com/file/d/1baCCs98TVWkzY698pgqmT8QZ7EpHE1Dm/view?usp=sharing"
+                        target="_blank"
+                        style={{ color: '#1565d4' }}
+                      >
+                        {' '}
+                        An improved K-Means Clustering with Machine Learning based Sentiment Analysis and Classification Model
+                      </a>{' '}
+                    </b>
+                  </h4>
+                  <h5>
+                    <b>Author(s): </b>  M. Iiayaraja
+                  </h5>
+                  <h5>
+                    <b>Pages: 25-30</b>
+                  </h5>
+                </CardBody>
+              </Card>
+            </GridItem>
 
           </GridContainer>
         </ExpansionPanelDetails>
