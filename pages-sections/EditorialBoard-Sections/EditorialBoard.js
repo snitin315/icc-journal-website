@@ -24,11 +24,12 @@ export default function EditorialBoard() {
             <CardBody>
               <h5>
                 <b>
-                  <a>Prof. Victor Hugo C. de Albuquerque </a>{' '}
+                  <a>Dr. Victor Hugo C. de Albuquerque </a>{' '}
                 </b>
+                <p>Professor</p>
               </h5>
               <h6> University of Fortaleza, Brazil. </h6>
-              <b className={classes.description}> Email: victor.albuquerque@unifor.br. </b>
+              <b className={classes.description}> Email: victor120585@yahoo.com.br. </b>
             </CardBody>
           </Card>
         </GridItem>
@@ -102,8 +103,9 @@ export default function EditorialBoard() {
             <CardBody>
               <h5>
                 <b>
-                  <a> Prof. Abhishek Swaroop </a>{' '}
+                  <a> Dr. Abhishek Swaroop </a>{' '}
                 </b>
+                <p>Professor</p>
               </h5>
               <h6> Bhagwan Parshuram Institute of Technology, New Delhi, India </h6>
               <b className={classes.description}> Email abhishekswaroop@bpitindia.com</b>
@@ -117,6 +119,7 @@ export default function EditorialBoard() {
                 <b>
                   <a> Dr. Utku Kose </a>{' '}
                 </b>
+                <p>Associate Professor</p>
               </h5>
               <h6> Suleyman Demirel University, Turkey </h6>
               <b className={classes.description}> Email: utkukose@sdu.edu.tr </b>
@@ -130,6 +133,7 @@ export default function EditorialBoard() {
                 <b>
                   <a> Dr. Ashish Khanna </a>{' '}
                 </b>
+                <p>Assistant Professor</p>
               </h5>
               <h6> Maharaha Agrasen Institute of Technology, New Delhi, India </h6>
               <b className={classes.description}> Email: ashishkhanna@mait.ac.in </b>
@@ -143,6 +147,7 @@ export default function EditorialBoard() {
                 <b>
                   <a>Dr. Deepak Gupta </a>{' '}
                 </b>
+                <p>Assistant Professor</p>
               </h5>
               <h6> Maharaja Agrasen Institute of Technology, Delhi, India. </h6>
               <b className={classes.description}>
@@ -159,6 +164,7 @@ export default function EditorialBoard() {
                 <b>
                   <a>Dr. Aditya Khamparia </a>{' '}
                 </b>
+                <p>Associate Professor</p>
               </h5>
               <h6>Lovely Professional University, Punjab, India </h6>
               <b className={classes.description}> Email: aditya.khamparia88@gmail.com </b>

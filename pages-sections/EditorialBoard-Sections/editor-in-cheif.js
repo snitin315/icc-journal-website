@@ -38,7 +38,7 @@ export default function EditorInCheif() {
           </h4>
           <h4 className={classes.description}>
             {' '}
-            <a> Email: joeljr@inatel.br, joeljr@ieee.org. </a>{' '}
+            <a>joeljr@ieee.org </a>{' '}
           </h4>
         </GridItem>
       </GridContainer>
